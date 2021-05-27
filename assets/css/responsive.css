@@ -1,0 +1,133 @@
+/*lg css*/
+@media (max-width: 992px) { 
+
+    .about-text-left {
+        margin-top: -50px;
+    }
+
+    .slider-caption h4 {
+      margin-bottom: 25px;
+      font-size: 20px;
+      margin-top: -70px;
+  }
+  .slider-caption h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.counter-number-item h2 {
+  font-size: 2.6em;
+}
+.counter-number-item p {
+  font-size: 14px;
+}
+.about-text-left h2 {
+  font-size: 26px;
+}
+.about-text-left p {
+  font-size: 20px;
+}
+.feature-title h2 {
+  font-size: 1.8rem;
+}
+.feature-title p {
+  font-size: 18px;
+}
+.feature-item-text h4 {
+  font-size: 18px;
+}
+.portfolio-title h2 {
+  font-size: 1.8rem;
+}
+.pricing-table h2 {
+  font-size: 1.8rem;
+}
+.pricing-table p {
+  font-size: 18px;
+}
+.pricing-table-item h3 {
+  font-size: 1.5rem;
+}
+.pricing-table-item ul li {
+  font-size: 15px;
+}
+.pricing-table-item-button a {
+  font-size: 15px;
+}
+.testmonial-title h2 {
+  font-size: 1.8rem;
+}
+.testmonial-title p {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+/*md css*/
+ @media (max-width: 767.98px) { 
+
+.slider-caption h4 {
+  font-size: 15px;
+}
+.slider-caption h1 {
+font-size: 25px;
+}
+
+.about-text-left h2 {
+  font-size: 19px;
+}
+.about-text-left p {
+  font-size: 15px;
+}
+
+
+.about-item {
+  text-align: center;
+}
+.about-item .card img {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*sm css*/
+  @media (max-width: 575.98px) { 
+      
+
+
+
+
+
+
+
+
+
+
+
+   }
+

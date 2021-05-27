@@ -1,0 +1,281 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+/* Default css */
+
+
+body{
+    font-family: 'Work Sans', sans-serif
+}
+
+img{
+    max-width: 100%;
+}
+
+/*Header css*/
+.my-css .navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.my-css .navbar-brand span {
+    color: white;
+    display: inline-block;
+    background: #6278DF;
+    height: 40px;
+    width: 35px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+
+/*Slider css*/
+
+.slider-section{
+    background: url(../images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.541);
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    margin-bottom: 30px;
+}
+
+.slider-caption h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+
+
+/* Counter css*/
+
+.counter-number-item h2 {
+    font-size: 3.6em;
+}
+
+.counter-number-item p {
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+/* About css*/
+.about-text-left{
+    margin-top: 50px;
+}
+.about-text-left h2 {
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+
+.about-text-left p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+
+/* Feature css*/
+
+
+
+.feature-title h2 {
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+
+.feature-title p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.feature-item {
+    box-shadow: 5px 5px 10px 0px;
+}
+
+.feature-item-img{
+    width: 45%;
+    overflow: hidden;
+}
+
+.feature-item-img img {
+    height: 195px;
+    width: 100%;
+}
+
+.feature-item-text{
+width: 50%;
+margin-left: 20px;
+}
+
+
+
+
+
+/* Portfolio css*/
+
+.portfolio-title h2 {
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #0000009a;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.portfolio-item:hover a::after{ 
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+/* Pricing Table css*/
+
+.pricing-table h2 {
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+
+.pricing-table p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+
+.pricing-table-item{
+    background-color: white;
+    padding: 20px;
+}
+.pricing-table-item h3{
+    font-size: 2.5rem;
+}
+.pricing-table-item{
+    box-shadow: 3px 3px 5px 0px;
+}
+.pricing-table-item p{}
+.pricing-table-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-table-item ul li{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #777;
+}
+.pricing-table-item ul li span{
+    width: 40px;
+    display: inline-block;
+    color: #6278DF;
+}
+
+.pricing-table-item-button{}
+.pricing-table-item-button a{}
+
+
+
+
+
+
+
+/* Testmonial css*/
+
+.testmonial-title h2 {
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+
+.testmonial-title h4 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+
+.author-img img {
+    width: 68px;
+}
+
+.author-info {
+    width: 200px;
+    margin-inline: auto;
+}
+
+
+/* About css*/
+
+.about-item{}
+.about-item .card{}
+.about-item .card img{
+    width: 100px;
+    height: auto;
+    margin-left: 12px;
+}
+.about-item .card .card-body{}
+
+
+
+/* Contact  css*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Get App css*/
+.app-button span i .fas .fa-android-alt{
+    color: white !important;
+}
+
+.fa-android-alt{
+    color: white !important;
+}
+
+/* Footer css*/
+
+
+section.footer {
+    background: #c1c1c1;
+}
+
+
